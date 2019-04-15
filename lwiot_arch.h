@@ -18,7 +18,7 @@
 #include <freertos/queue.h>
 #include <freertos/semphr.h>
 #include <freertos/timers.h>
-#elif !defined(NO_OS)
+#else
 #include <FreeRTOS.h>
 #include <task.h>
 #include <queue.h>
